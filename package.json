@@ -1,0 +1,22 @@
+{
+  "name": "eslint-plugin-loadable-imports",
+  "version": "1.0.0",
+  "description": "ESLint plugin to sort loadable imports",
+  "main": "index.js",
+  "scripts": {
+    "test": "node sort-loadable-import.test.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "loadable",
+    "loadable sort"
+  ],
+  "author": "Ernest Sim",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.9.1",
+    "eslint-rule-tester": "^1.2.0"
+  }
+}
