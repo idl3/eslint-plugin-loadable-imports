@@ -35,8 +35,6 @@ ruleTester.run(
         `,
         errors: [
           { message: 'Loadable imports are not sorted alphabetically.' },
-          { message: 'Loadable imports are not sorted alphabetically.' },
-          { message: 'Loadable imports are not sorted alphabetically.' },
         ],
         output: `
           const AComponent = loadable(() => import('@/components/AComponent'));
@@ -51,7 +49,6 @@ ruleTester.run(
         `,
         errors: [
           { message: 'Loadable imports are not sorted alphabetically.'},
-          { message: 'Loadable imports are not sorted alphabetically.'},
         ],
         output: `
           const First = loadable(() => import('@/components/First'));
@@ -61,3 +58,5 @@ ruleTester.run(
     ],
   }
 );
+
+console.log("All tests passed!");

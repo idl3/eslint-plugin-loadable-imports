@@ -1,10 +1,10 @@
 {
   "name": "eslint-plugin-loadable-imports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint plugin to sort loadable imports",
   "main": "index.js",
   "scripts": {
-    "test": "node sort-loadable-import.test.js"
+    "test": "node tests/sort-loadable-imports.test.js"
   },
   "keywords": [
     "eslint",
